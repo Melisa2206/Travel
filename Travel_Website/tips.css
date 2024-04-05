@@ -1,0 +1,43 @@
+.Images {
+    /* Set specific width and height */
+    width: 350px; /* You can adjust the width as needed */
+    height: auto; /* This will maintain the aspect ratio */
+    border-radius: 30px;
+    box-shadow: #000000;
+}
+body{
+  font-family: "Cardo", serif;
+  }
+  .carousel-content {
+    font-size: 8000px;
+    font-family: "Cardo", serif;
+    position: absolute;
+    text-align: center;
+    bottom: 53%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 20;
+    color:rgb(162, 151, 151);
+    letter-spacing: 10px;
+  }
+
+.all{
+  background-color: #e1d8d2; 
+  color:rgb(162, 151, 151);
+}
+
+.home-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  padding: 10px 20px;
+  background-color: #e1d8d2; 
+  
+  color:rgb(162, 151, 151);
+
+  text-decoration: none;
+  font-size: 40px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
